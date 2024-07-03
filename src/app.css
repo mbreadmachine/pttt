@@ -76,3 +76,8 @@
     @apply bg-background text-foreground;
   }
 }
+/* These styles are only needed for good styling of the markdown text */
+
+.markdown > h1 {
+  @apply text-4xl;
+}
