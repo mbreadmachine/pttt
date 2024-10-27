@@ -76,8 +76,49 @@
     @apply bg-background text-foreground;
   }
 }
-/* These styles are only needed for good styling of the markdown text */
 
-.markdown > h1 {
-  @apply text-4xl;
+/* Styling text that are not already styled by shadcn */
+
+h1 {
+  @apply scroll-m-20 text-4xl font-bold lg:text-5xl;
+}
+
+h2 {
+  @apply scroll-m-20 text-2xl font-bold lg:text-3xl;
+}
+
+h3 {
+  @apply scroll-m-20 text-xl font-bold lg:text-xl;
+}
+
+h4 {
+  @apply scroll-m-20 text-lg font-bold;
+}
+
+p {
+  @apply scroll-m-20 text-base lg:text-lg;
+}
+
+code {
+  @apply bg-muted relative rounded px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold
+}
+
+blockquote {
+  @apply mt-6 border-l-2 pl-6 italic
+}
+
+ul {
+  @apply my-6 ml-6 list-disc [&>li]:mt-2
+}
+
+tr {
+  @apply even:bg-muted m-0 border-t p-0
+}
+
+th {
+  @apply border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right
+}
+
+a {
+  @apply text-primary font-medium underline underline-offset-4
 }
