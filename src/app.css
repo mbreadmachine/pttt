@@ -80,7 +80,7 @@
 /* Styling text that are not already styled by shadcn */
 
 h1 {
-  @apply scroll-m-20 text-4xl font-bold lg:text-5xl;
+  @apply scroll-m-20 text-3xl font-bold lg:text-5xl;
 }
 
 h2 {
@@ -119,6 +119,10 @@ th {
   @apply border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right
 }
 
-a {
+.markdown > a, .link {
   @apply text-primary font-medium underline underline-offset-4
+}
+
+.navlink {
+  @apply hover:text-primary font-medium transition-colors hover:bg-gray-200 rounded-sm px-3 py-2
 }

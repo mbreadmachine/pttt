@@ -15,6 +15,8 @@ const config = {
 		},
 		extend: {
 			colors: {
+				kofi: "#FF5E5B",
+				github: "#181717",
 				border: "hsl(var(--border) / <alpha-value>)",
 				input: "hsl(var(--input) / <alpha-value>)",
 				ring: "hsl(var(--ring) / <alpha-value>)",
