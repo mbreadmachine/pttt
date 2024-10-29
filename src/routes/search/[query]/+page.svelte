@@ -9,7 +9,7 @@
     <title>pttt - Results for "{$page.params.query}"</title>
 </svelte:head>
 
-{#if data.results == []}
+{#if data.results.length > 0}
     <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
         {#each data.results as card}
             <ResultCard data={card} />
@@ -17,6 +17,6 @@
     </div>
 {:else}
     <div class="text-center">
-        <h1>No results found!</h1>
+        <h1>No results found</h1>
     </div>
 {/if}
