@@ -119,7 +119,7 @@ th {
   @apply border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right
 }
 
-.markdown > a, .link {
+.markdown-body > a, .link {
   @apply text-primary font-medium underline underline-offset-4
 }
 
