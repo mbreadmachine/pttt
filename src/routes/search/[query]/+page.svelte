@@ -6,7 +6,9 @@
 </script>
 
 <svelte:head>
-    <title>pttt - Results for "{$page.params.query}"</title>
+    <title>Search results for {$page.params.query} - pttt</title>
+    <meta name="description" content="Search for public transport tickets and more" />
+    <meta name="og:title" content={"Discover all results for" + $page.params.query} />
 </svelte:head>
 
 {#if data.results.length > 0}

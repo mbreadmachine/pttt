@@ -29,7 +29,12 @@
 </script>
 
 <svelte:head>
-	<title>pttt - Home</title>
+	<title>Public Transport Ticket Tracker</title>
+	<meta name="description" content="The public transport fare info aggregator you have been waiting for" />
+	<meta name="og:title" content="Public Transport Ticket Tracker" />
+	<meta name="og:type" content="website" />
+	<meta name="og:url" content="https://pttt.vercel.app/" />
+	<meta name="og:locale" content="en_US" />
 </svelte:head>
 
 <div class="flex flex-col items-center mt-2">

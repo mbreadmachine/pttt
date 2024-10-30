@@ -24,10 +24,6 @@
     }
 </script>
 
-<svelte:head>
-	<title>pttt - Search and Discover</title>
-</svelte:head>
-
 <div class="mt-2 flex items-center justify-center">
 	<div class="w-10/12 md:w-2/4 flex gap-2">
 		<Input bind:value={searchTerm} onkeydown={keySearch} placeholder="Search for a station or a route" />
